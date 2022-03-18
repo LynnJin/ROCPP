@@ -1,5 +1,27 @@
 # ROCPP
-## Introduction
+
+**This code is the on-going developed basis of the software published at the INFORMS Journal on Computing [Repository](https://github.com/INFORMSJoC/2020.0140).**
+
+## Cite
+To cite this software, please cite the paper "ROC++: Robust Optimization in C++" using its [DOI]() and the software itself, using the following DOI.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6360996.svg)](https://doi.org/10.5281/zenodo.6360996)
+
+Below is the BibTex for citing this version of the code.
+
+```
+@article{ROCPP,
+  author =        {P. Vayanos, Q. Jin, G. Elissaios},
+  publisher =     {INFORMS Journal on Computing},
+  title =         {{ROCPP} Version v2020.0140},
+  year =          {2022},
+  doi =           {10.5281/zenodo.6360996},
+  url =           {https://github.com/INFORMSJoC/2020.0140},
+} 
+```
+
+
+## Description
 ROC++ is a C++ based platform for modeling, automatically reformulating, and solving robust optimization problems. 
 
 ROC++ can address both single- and multi-stage problems involving exogenous and/or endogenous uncertain parameters and real- and/or binary-valued adaptive variables. 
@@ -230,9 +252,6 @@ pSolver.solve(refModel)
 **Note**: The solver used in Python is pre-selected in the compilatio step.
 
 ## Please cite us
-We hope that you find ROC++ useful in your work. **If you do use it, please cite us as**:
-
-P Vayanos, Q Jin, and G Elissaios. [ROC++: Robust Optimization in C++](http://www.optimization-online.org/DB_FILE/2020/06/7835.pdf). Underreview at Informs Journal of Computing, 2020.
 
 **If you use the ROCPPKadapt approximator, please also cite the paper**:
 
